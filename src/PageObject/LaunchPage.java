@@ -30,6 +30,7 @@ public class LaunchPage extends SeleniumMethods {
         test.info("Entered password successfully");
         click(driver, By.xpath(loginbutton));
         System.out.println("clicked successfully");
+        System.out.println("logged In");
     }
 }
 
